@@ -1,0 +1,61 @@
+html, body { 
+  margin:0; 
+  padding:0; 
+  height:100%; 
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Droid Serif',Georgia,serif;
+    font-size: 18px;
+    color: #333;
+    background-image: url("http://36.media.tumblr.com/64c3b8ed18fbc5eeb799577598e6e407/tumblr_ntq4o3ub9t1uf0nwno3_1280.png");
+    background-size: cover;
+}
+
+header {
+    margin-top: -25px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+}
+
+#social-media {
+    margin:50px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+
+h3, h2 {
+    padding: 50px;
+}
+
+footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+    color: #ffffff;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+#foto-perfil {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    clear: both;
+}
