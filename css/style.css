@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
 html, body { 
   margin:0; 
   padding:0; 
@@ -6,7 +8,7 @@ html, body {
 
 body {
     box-sizing: border-box;
-    font-family: 'Droid Serif',Georgia,serif;
+    font-family: 'Quicksand',Georgia,serif;
     font-size: 18px;
     color: #333;
     background-image: url("http://36.media.tumblr.com/64c3b8ed18fbc5eeb799577598e6e407/tumblr_ntq4o3ub9t1uf0nwno3_1280.png");
@@ -14,7 +16,7 @@ body {
 }
 
 header {
-    margin-top: -25px;
+    margin-top: -40px;
     text-align: center;
 }
 
@@ -27,17 +29,18 @@ nav {
 }
 
 #social-media {
-    margin:50px;
+    margin-top: 80px;
 }
 
 li {
     list-style: none;
     display: inline;
-    padding: 15px;
+    padding: 10px;
 }
 
-h3, h2 {
-    padding: 50px;
+h2 {
+    padding: 40px;
+    font-size: 40px;
 }
 
 footer {
@@ -46,7 +49,8 @@ footer {
 	width:100%;
     color: #ffffff;
     background-color: #333;
-    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     text-align: center;
 }
 
