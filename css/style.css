@@ -63,3 +63,8 @@ footer {
     border-color: rgba(0, 0, 0, 0.5);
     clear: both;
 }
+
+#codepen {
+    width: 64px;
+    height: 64px;
+}
