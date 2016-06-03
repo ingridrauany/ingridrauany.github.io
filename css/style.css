@@ -9,10 +9,10 @@ html, body {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
         display: flex;
-        flex-direction: row;
+        flex-flow: row	nowrap;
     }
     
-    nav {
+    nav > ul {
         display: flex;
         flex-direction: row;
     }
@@ -20,21 +20,27 @@ html, body {
 }
 
 body { 
+    display:	-webkit-box;
+    display:	-webkit-flex;
+    display:	-moz-flex;
+    display:	-ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
     box-sizing: border-box;
     font-family:  "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: #333;
     background-color: #F5F5DC;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
-    display: flexx;
-    align-items: flex-start;
+    display: flex;
+    justify-content: center;
     width: 100%;
     text-align: center;
+    min-height: 150px;
 }
 
 a {
@@ -42,15 +48,23 @@ a {
 }
 
 nav {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    height: 200px;
+    width: 100%;
+    flex: 1;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 picture {
     display: flex;
     justify-content: center;
+    padding: 20px;
+    min-height: 200px;
 }
 
 li {
@@ -68,14 +82,13 @@ footer {
     color: #ffffff;
     background-color: #333;
     text-align: center;
+    width: 100%;
     display: flex;
-    align-items: flex-end;
     justify-content: center;
-    flex: 1;
+    min-height: 60px;
 }
 
 #foto-perfil {
-    margin: 0 auto;
     width: 200px;
     height: 200px;
     border-radius: 50%;
