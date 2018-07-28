@@ -7,26 +7,28 @@
     <meta itemprop="author" content="Ingrid Rauany">
     <meta name="keywords" content="html, css, javascript, front-end">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <h2>Ingrid Rauany</h2>
-     </header>
-     <picture>
-         <img src="img/perfil.jpg" id="foto-perfil">
-     </picture>
-     <nav>
-         <ul>
-             <li><a href="https://www.facebook.com/ingridrauany" target="_blank"><img src="img/facebook1.png"></a></li>
-             <li><a href="https://www.github.com/ingridrauany" target="_blank"><img src="img/github.png"></a></li>
-             <li><a href="https://br.linkedin.com/in/ingridrauany" target="_blank"><img src="img/linkedin.png"></a></li>
-             <li><a href="http://codepen.io/ingridrauany/" target="_blank"><img src="img/codepen.png"></a></li>
-             <li><a href="mailto:ingrid.rauany@hotmail.com" target="_blank"><img id="codepen" src="img/email.png"></a></li>
-        </ul>
-    </nav>
+    <div class="content">
+        <picture class="profile__picture">
+            <img src="img/perfil.jpg" class="profile__picture-img">
+        </picture>
+        <div class="profile__social">
+            <h2>Ingrid Rauany</h2>
+            <div class="social__description">Desenvolvedora front-end situada em Montes Claros/MG. Formada em <div class="word_detail">Sistemas de Informação</div> pela Universidade Estadual de Montes Claros. Atualmente trabalho com desenvolvimento de sistemas web e lojas virtuais na empresa <div class="word_detail">eCommerce-net</div>.</div>
+            <ul class="social__icons">
+                <li><a href="https://www.facebook.com/ingridrauany" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                <li><a href="https://www.github.com/ingridrauany" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+                <li><a href="https://br.linkedin.com/in/ingridrauany" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                <li><a href="http://codepen.io/ingridrauany/" target="_blank"><i class="fab fa-codepen fa-2x"></i></a></li>
+                <li><a href="mailto:ingrid.rauany@hotmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a></li>
+            </ul>
+        </div>
+    </div>
     <footer>
-        <p>Desenvolvido por Ingrid Rauany</p>
+        <p>© 2018 - Ingrid Rauany</p>
     </footer>
 </body>
 </html>
