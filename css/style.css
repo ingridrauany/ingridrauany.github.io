@@ -202,14 +202,6 @@ footer {
 	text-align: left;
 }
 
-.profile__picture-img {
-	height: 100%;
-	display: block;
-	position: absolute;
-	right: 50%;
-	transform: translateX(50%);
-}
-
 .fab,
 .fas {
 	color: #e9967a;
@@ -232,13 +224,18 @@ footer {
 }
 
 .profile__picture {
-	width: 250px;
-	height: 250px;
 	overflow: hidden;
 	text-align: center;
 	border-radius: 50%;
 	border: 3px solid #3a3a3a;
-	position: relative;
+}
+
+.profile__picture-img {
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	width: 250px;
+	height: 250px;
 }
 
 @media only screen and (max-width: 770px) {
